@@ -11,7 +11,7 @@ export default [
   {
     rules: {
       '@typescript-eslint/no-explicit-any': 1,
-      'no-console': ['warn', { allow: ['warn', 'error'] }],
+      'no-console': ['error', { allow: ['warn', 'error'] }],
       'no-mixed-spaces-and-tabs': 1,
       'react/react-in-jsx-scope': 0,
     },
